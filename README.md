@@ -1,6 +1,8 @@
 # Dream Come True: A Tale of Diffusion Model Tailored with CLIP and VLM.
+
+
 <p align="center">
-<img src=assets/eeg_teaser.png />
+    <img src="https://github.com/user-attachments/assets/f91b3b5c-763c-4c06-8f15-ed6db96b8c9d"/>
 </p>
 
 ## Dream Come True (DCT)
@@ -9,8 +11,7 @@ This document introduces the precesedures required for replicating the results i
 
 
 ## Architecture
-![pipeline](assets/eeg_pipeline.png)
-
+![main model](https://github.com/user-attachments/assets/1e1f4a9a-b34e-41df-862d-15ae2bbe6399)
 
 The **datasets** folder and **pretrains** folder are not included in this repository. 
 Please download them from [eeg](https://github.com/perceivelab/eeg_visual_classification) and put them in the root directory of this repository as shown below. We also provide a copy of the Imagenet subset [imagenet](https://drive.google.com/file/d/1y7I9bG1zKYqBM94odcox_eQjnP9HGo9-/view?usp=drive_link).
@@ -112,8 +113,10 @@ Run this stage with our provided checkpoints: Here we provide a checkpoint [ckpt
 python3 code/gen_eval_eeg.py --dataset EEG --model_path  .\exps\results\generation\...\checkpoint.pth
 ```
 
+![comparison_result](https://github.com/user-attachments/assets/b15412a5-7f4b-4da0-8a88-439ff9f6c2ce)
 
-![results](assets/results.png)
+![gensamples](https://github.com/user-attachments/assets/075b824b-4787-44ae-858d-e01564467c60)
+
 
 ## Acknowledgement
 
